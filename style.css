@@ -34,24 +34,29 @@
 .logoUser{
     width: 60.8px;
     height:56.31px ;
-    margin-left:160px ;
+    margin-left:180px ;
     margin-top:10px;
     margin-bottom:12px ;
 }
+main{
+    display: flex;
+}
 .navBar{
-    display: inline-block;
     width: 30%;
-    height: 643.04px;
+    height: 643px;
+    text-align: center;
     border-right: 5px solid rgb(125, 125, 125);
 }
 
 .ActiveItem{
     color: rgb(150, 223, 255);
-}
+}w
 
-.productsBlock{
-    display: inline-block;
+.productBlock{
+    display:flex;
+    justify-content:space-around;
     width: 60%;
+    
 }
 
 .TitleProducts{
@@ -59,6 +64,7 @@
 
 }
 .productItem{
+    align-items: center;
     display: inline-block;
     width: 270px;
     height: 20%;
